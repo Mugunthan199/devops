@@ -1,7 +1,7 @@
-name: helloWorld deploy
+name: HelloWorld deploy
 on:
   push:
-    branches: [ main ]
+    branches: [ Main ]
 
 jobs:
   EC2-Deploy:
